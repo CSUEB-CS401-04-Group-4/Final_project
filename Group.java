@@ -2,41 +2,6 @@ import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
-//public class Group {
-//    private int groupID;
-//    private String name;
-//    private String description;
-//    private List<User> members;
-//    private List<Event> events;
-//
-//    public Group(int groupID, String name, String description) {
-//        this.groupID = groupID;
-//        this.name = name;
-//        this.description = description;
-//        this.members = new ArrayList<>();
-//        this.events = new ArrayList<>();
-//    }
-//
-//    public void addMember(User user) {
-//        if (!members.contains(user)) {
-//            members.add(user);
-//        }
-//    }
-//
-//    public void removeMember(User user) {
-//        members.remove(user);
-//    }
-//
-//    public List<Event> getEvents() {
-//        return events;
-//    }
-//
-//    public Event createEvent(String title, String desc, LocalDateTime date, String location) {
-//        Event event = new Event(events.size() + 1, title, desc, date, location);
-//        events.add(event);
-//        return event;
-//    }
-//}
 
 
 public class Group {
