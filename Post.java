@@ -9,7 +9,6 @@ public class Post {
     private User author;
     private List<Comment> comments;
     private List<User> likes;
-    private List<Share> shares;
 
     public Post(int postID, String content, User author) {
         this.postID = postID;
@@ -18,7 +17,6 @@ public class Post {
         this.author = author;
         this.comments = new ArrayList<>();
         this.likes = new ArrayList<>();
-        this.shares = new ArrayList<>();
     }
 
     public void addComment(Comment comment) {
